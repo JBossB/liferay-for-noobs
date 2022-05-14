@@ -12,7 +12,7 @@ El repositorio está divido en módulos por temática comenzando por el nivel de
 ## Programas utilizados
 
 Como todo programador, queremos acernos la vida "más fácil", por lo que a continuación te dejo una lista de los programas que utilizo para programar y que veremos a medida que avancemos en el curso.
-    ```
+   ```
        Java JDK 11 *motor de java para iniciar los programas y el portal*
        Liferay Developer Studio *para el workspace de Liferray*
        MySQL: motor de base de datos.
@@ -21,6 +21,7 @@ Como todo programador, queremos acernos la vida "más fácil", por lo que a cont
        Git (Git hub client) *para gestión de versiones y repositorios*
        Notepadd++ : *para editar properties*
        Rapid Enviroment Editor
-    ```
+   ``` 
+    
 > **Note:** Como mencionaba, algunos de los programas son  **opcionales**, yo los utilizo, pero sientete libre de utilizar el que más te acomode .
 
