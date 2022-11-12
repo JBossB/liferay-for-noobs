@@ -1,3 +1,13 @@
+/*
+
+long groupId = 4071273;
+long folderId= 4071389;
+long idCategory = 4088807;
+
+*/
+
+
+
 package com.avangrid.liferay.migration.commands.migratePages;
 
 import com.liferay.asset.entry.rel.service.AssetEntryAssetCategoryRelLocalServiceUtil;
@@ -15,13 +25,8 @@ import java.util.List;
 import java.util.Locale;
 
 
-long groupId = 4071273;
-long folderId= 4072048;
-long idCategory = 4088198;
-
-
 JournalArticleServiceUtil journalService = new JournalArticleServiceUtil();
-		iterateFolder(groupId, folderId, journalService);
+		iterateFolder(4071273, 4071389, journalService);
 		
 		
 		public void iterateFolder(long groupId, long folderId,JournalArticleServiceUtil journalService ) {
@@ -56,7 +61,7 @@ private AssetEntry assignAssetCategory(String className, Long primaryKey, AssetE
         AssetEntry assetEntry = _assetEntryLocalService.fetchEntry(className, primaryKey);
         if (Validator.isNotNull(assetEntry)) {
             	AssetEntryAssetCategoryRelLocalServiceUtil _assetEntryAssetCategoryRelLocalService = new AssetEntryAssetCategoryRelLocalServiceUtil();
-                    _assetEntryAssetCategoryRelLocalService.addAssetEntryAssetCategoryRel(assetEntry.getEntryId(), idCategory);
+                    _assetEntryAssetCategoryRelLocalService.addAssetEntryAssetCategoryRel(assetEntry.getEntryId(), 4088807);
         }
         return assetEntry;
     }
