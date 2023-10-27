@@ -1,6 +1,6 @@
 # Bienvenida!
 
-Hola! Bienevenido al repositorio de **Liferay for Noobs**. A continuacion te muestro la información del repositorio, proyectos y requisitos para comenzar en el mundo de la prograamción, y más especificamente, con Liferay.
+Hola! Bienvenido al repositorio de **Liferay for Noobs**. A continuacion te muestro la información del repositorio, proyectos y requisitos para comenzar en el mundo de la prograamción, y más especificamente, con Liferay.
 Si llegaste aquí por medio del canald e Youtube, te invito a darnos me gusta y suscribirte a las listas de reproducciones. Si aún no conoces nuestro canal, búscanos como *liferay for noobs*
 
 
